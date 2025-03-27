@@ -1,0 +1,49 @@
+# Операционная система
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+.DS_Store
+
+# venv и зависимости
+venv/
+env/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+
+# Конфиденциальные данные
+.env
+.env.local
+.env.production
+config/settings_local.py  # Если используешь локальные настройки
+
+# База данных (если SQLite)
+db.sqlite3
+*.sqlite3
+
+# Статические и медиа файлы
+staticfiles/
+media/
+
+# Миграции (если хочешь исключить старые миграции)
+**/migrations/*.pyc
+**/migrations/*.py
+!**/migrations/__init__.py  # Оставляем init, чтобы Django распознавал папку
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Docker
+*.db
+docker-compose.override.yml
