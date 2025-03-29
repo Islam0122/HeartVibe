@@ -4,12 +4,11 @@ from django.contrib import admin
 from django.urls import path, include
 from .drf_yasg import urlpatterns as swagger_urls
 
-
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/v1/', include('apps.OTP.urls')),
-
-] + swagger_urls
+                  path('admin/', admin.site.urls),
+                  path('api/v1/', include('apps.OTP.urls')),
+                  path('api/v1/', include('apps.news.urls')),
+              ] + swagger_urls
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

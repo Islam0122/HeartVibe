@@ -22,12 +22,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'corsheaders',
     'rest_framework',
+    'corsheaders',
     'drf_yasg',
 
     #apps
     'apps.OTP',
+    'apps.news',
 ]
 
 MIDDLEWARE = [
