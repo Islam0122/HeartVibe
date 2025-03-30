@@ -35,10 +35,7 @@ db.sqlite3
 staticfiles/
 media/
 
-# Миграции (если хочешь исключить старые миграции)
-**/migrations/*.pyc
-**/migrations/*.py
-!**/migrations/__init__.py  # Оставляем init, чтобы Django распознавал папку
+
 
 # Celery
 celerybeat-schedule
