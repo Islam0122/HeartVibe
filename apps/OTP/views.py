@@ -23,7 +23,7 @@ class SendOTPView(APIView):
                             status=status.HTTP_429_TOO_MANY_REQUESTS)
 
         try:
-            send_otp_email(email)  # Функция генерации и отправки OTP
+            send_otp_email(email)
             return Response({"message": "OTP был отправлен на ваш email."}, status=status.HTTP_200_OK)
         except Exception as e:
             return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)

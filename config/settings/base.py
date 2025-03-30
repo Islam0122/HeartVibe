@@ -29,6 +29,8 @@ INSTALLED_APPS = [
     #apps
     'apps.OTP',
     'apps.news',
+    'apps.contactrequest',
+
 ]
 
 MIDDLEWARE = [
@@ -96,22 +98,16 @@ REST_FRAMEWORK = {
     ]
 }
 
-CORS_ALLOWED_ORIGINS = env.list('CORS_ALLOWED_ORIGINS', default=['http://localhost:3000'])
+from .cors import *
 
 JAZZMIN_SETTINGS = {
-    "site_title": "EduQuiz",  # Заголовок сайта
-    "site_header": "Админка EduQuiz",  # Заголовок на главной странице админки
-    "site_brand": "EduQuiz",  # Логотип или название бренда на странице
-    "welcome_sign": "Добро пожаловать в админку EduQuiz!",  # Приветственное сообщение
+    "site_title": "HeartVibe",  # Заголовок сайта
+    "site_header": "Админка HeartVibe",  # Заголовок на главной странице админки
+    "site_brand": "HeartVibe",  # Логотип или название бренда на странице
+    "welcome_sign": "Добро пожаловать в админку HeartVibe!",  # Приветственное сообщение
     "topmenu_links": [
         {"name": "Главная", "url": "/admin/", "permissions": ["auth.view_user"]},
     ],
-
-    "custom_links": {
-        "eduquiz": [
-            {"name": "Перейти на сайт", "url": "/", "icon": "fas fa-home", "permissions": []},
-        ]
-    },
     "show_ui_builder": True,
 
 }
