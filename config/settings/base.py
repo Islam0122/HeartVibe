@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'apps.OTP',
     'apps.news',
     'apps.contactrequest',
+    'apps.event',
 
 ]
 

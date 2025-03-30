@@ -9,6 +9,8 @@ urlpatterns = [
                   path('api/v1/', include('apps.OTP.urls')),
                   path('api/v1/', include('apps.contactrequest.urls')),
                   path('api/v1/', include('apps.news.urls')),
+                  path('api/v1/', include('apps.event.urls')),
+
               ] + swagger_urls
 
 if settings.DEBUG:
