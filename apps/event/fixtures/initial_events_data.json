@@ -1,0 +1,117 @@
+[
+  {
+    "model": "event.EventCategory",
+    "pk": 1,
+    "fields": {
+      "name": "Образование"
+    }
+  },
+  {
+    "model": "event.EventCategory",
+    "pk": 2,
+    "fields": {
+      "name": "Экология"
+    }
+  },
+  {
+    "model": "event.EventCategory",
+    "pk": 3,
+    "fields": {
+      "name": "Социальная помощь"
+    }
+  },
+  {
+    "model": "event.EventCategory",
+    "pk": 4,
+    "fields": {
+      "name": "Культура"
+    }
+  },
+  {
+    "model": "event.EventCategory",
+    "pk": 5,
+    "fields": {
+      "name": "Спорт"
+    }
+  },
+  {
+    "model": "event.Event",
+    "pk": 1,
+    "fields": {
+      "image": "events/img.png",
+      "title": "Образовательная конференция",
+      "description": "Конференция, посвященная образовательным вопросам.",
+      "date": "2025-05-10T10:00:00Z",
+      "location": "Московский университет",
+      "location_url": "https://maps.google.com",
+      "category": 1,
+      "is_active": true,
+      "created_at": "2025-04-02T18:00:00Z",
+      "updated_at": "2025-04-02T18:00:00Z"
+    }
+  },
+  {
+    "model": "event.Event",
+    "pk": 2,
+    "fields": {
+      "image": "events/img_1.png",
+      "title": "Экологический форум",
+      "description": "Форум по вопросам экологии и устойчивого развития.",
+      "date": "2025-06-15T09:00:00Z",
+      "location": "Экологический центр",
+      "location_url": "https://maps.google.com",
+      "category": 2,
+      "is_active": true,
+      "created_at": "2025-04-02T18:00:00Z",
+      "updated_at": "2025-04-02T18:00:00Z"
+    }
+  },
+  {
+    "model": "event.Event",
+    "pk": 3,
+    "fields": {
+      "image": "events/img_2.png",
+      "title": "Благотворительный вечер",
+      "description": "Вечер для сбора средств на помощь нуждающимся.",
+      "date": "2025-07-01T18:00:00Z",
+      "location": "Концертный зал",
+      "location_url": "https://maps.google.com",
+      "category": 3,
+      "is_active": true,
+      "created_at": "2025-04-02T18:00:00Z",
+      "updated_at": "2025-04-02T18:00:00Z"
+    }
+  },
+  {
+    "model": "event.Event",
+    "pk": 4,
+    "fields": {
+      "image": "events/img_3.png",
+      "title": "Концерт классической музыки",
+      "description": "Концерт известного оркестра в честь праздника.",
+      "date": "2025-08-20T19:00:00Z",
+      "location": "Государственная филармония",
+      "location_url": "https://maps.google.com",
+      "category": 4,
+      "is_active": true,
+      "created_at": "2025-04-02T18:00:00Z",
+      "updated_at": "2025-04-02T18:00:00Z"
+    }
+  },
+  {
+    "model": "event.Event",
+    "pk": 5,
+    "fields": {
+      "image": "events/img_4.png",
+      "title": "Спортивные игры",
+      "description": "Турнир по футболу между любителями.",
+      "date": "2025-09-05T14:00:00Z",
+      "location": "Спортивный комплекс",
+      "location_url": "https://maps.google.com",
+      "category": 5,
+      "is_active": true,
+      "created_at": "2025-04-02T18:00:00Z",
+      "updated_at": "2025-04-02T18:00:00Z"
+    }
+  }
+]

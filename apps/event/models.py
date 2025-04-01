@@ -2,7 +2,7 @@ from django.db import models
 from django.core.validators import URLValidator
 from core.models import BaseModel
 
-class Category_Event(BaseModel):
+class EventCategory(models.Model):
     name = models.CharField(
         max_length=100,
         verbose_name="Название категории",
@@ -17,9 +17,10 @@ class Category_Event(BaseModel):
         verbose_name_plural = "Категории мероприятий"
         ordering = ['name']
 
+
 class Event(BaseModel):
     image = models.ImageField(
-        upload_to='events/images/',
+        upload_to='events/',
         verbose_name="Изображение",
         help_text="Загрузите изображение для мероприятия",
         blank=True,
@@ -44,7 +45,7 @@ class Event(BaseModel):
         help_text="Физическое место проведения (адрес или название места)"
     )
     location_url = models.URLField(
-        max_length=500,
+        max_length=255,
         blank=True,
         null=True,
         validators=[URLValidator()],
@@ -52,8 +53,8 @@ class Event(BaseModel):
         help_text="Ссылка на карту или страницу места проведения (необязательно)"
     )
     category = models.ForeignKey(
-        Category_Event,
-        on_delete=models.SET_NULL,
+        EventCategory,
+        on_delete=models.PROTECT,
         null=True,
         blank=True,
         related_name='events',
@@ -77,6 +78,5 @@ class Event(BaseModel):
             models.Index(fields=['-date']),
             models.Index(fields=['category']),
             models.Index(fields=['is_active']),
+            models.Index(fields=['is_active', '-date']),
         ]
-
-        

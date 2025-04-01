@@ -1,13 +1,15 @@
 from rest_framework import viewsets
-from .models import Event ,Category_Event
-from .serializers import EventSerializer, EventListSerializer ,CategoryEventSerializer
+from .models import Event , EventCategory
+from .serializers import EventSerializer, EventCategorySerializer
 from rest_framework import filters
 from django_filters.rest_framework import DjangoFilterBackend
 
 
 class CategoryEventViewSet(viewsets.ModelViewSet):
-    queryset = Category_Event.objects.all()
-    serializer_class = CategoryEventSerializer
+    queryset = EventCategory.objects.all()
+    serializer_class = EventCategorySerializer
+    http_method_names = ['get', 'head', 'options']
+
 
 
 class EventViewSet(viewsets.ModelViewSet):
@@ -22,8 +24,4 @@ class EventViewSet(viewsets.ModelViewSet):
     search_fields = ['title', 'description', 'location']
     ordering_fields = ['date', 'created_at']
     ordering = ['-date']
-
-    def get_serializer_class(self):
-        if self.action == 'list':
-            return EventListSerializer
-        return super().get_serializer_class()
+    http_method_names = ['get', 'head', 'options']

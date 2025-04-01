@@ -1,13 +1,12 @@
 from django.contrib import admin
 from django.utils.html import format_html
-from .models import Event, Category_Event
+from .models import Event, EventCategory
 
 
-@admin.register(Category_Event)
+@admin.register(EventCategory)
 class CategoryEventAdmin(admin.ModelAdmin):
-    list_display = ('name', 'created_at')
+    list_display = ('name',)
     search_fields = ('name',)
-    readonly_fields = ('created_at', 'updated_at')
     list_per_page = 20
 
 

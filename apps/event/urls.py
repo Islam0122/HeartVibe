@@ -3,6 +3,6 @@ from .views import EventViewSet, CategoryEventViewSet
 
 router = DefaultRouter()
 router.register(r'events', EventViewSet, basename='event')
-router.register(r'categories', CategoryEventViewSet, basename='category')
+router.register(r'events-categories', CategoryEventViewSet, basename='category')
 
 urlpatterns = router.urls

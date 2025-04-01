@@ -6,3 +6,5 @@ class EventConfig(AppConfig):
     name = 'apps.event'
     verbose_name = 'Управление мероприятиями'
 
+    def ready(self):
+        import apps.event.signals
