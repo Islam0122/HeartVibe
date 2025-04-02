@@ -3,24 +3,48 @@
     "model": "ourcommand.TeamMember",
     "pk": 1,
     "fields": {
-      "photo": "team_photos/img.png",
-      "full_name": "Муратова Медина",
+      "photo": "team_photos/img_4.png",
+      "full_name": "Muratova Medina",
       "position": "Frontend-разработчик",
-      "bio": "Я — Муратова Медина, frontend-разработчик, и я горжусь тем, что стала частью команды, которая создала платформу HeartVibe. Этот проект стал для меня настоящим вдохновением. Мы вложили много усилий в создание не только красивого, но и функционального интерфейса, который продолжает развиваться и помогать пользователям. Для меня это больше, чем просто работа — это возможность делать мир немного лучше.",
+      "bio": "I’m Medina Muratova, a frontend developer, and I’m proud to be part of the team that built the HeartVibe platform. This project has been a true source of inspiration for me. We put a lot of effort into creating not just a beautiful, but also a functional interface that continues to grow and support its users. For me, it’s more than just a job — it’s an opportunity to make the world a little better",
       "contact_number": "+996 501 301005",
-      "created_at": "2024-04-01T12:00:00Z"
+      "created_at": "2024-04-01T15:00:00+03:00"
     }
   },
   {
     "model": "ourcommand.TeamMember",
     "pk": 2,
     "fields": {
-      "photo": "team_photos/img.png",
-      "full_name": "Шаршенбеков Нурхан",
-      "position": "Frontend-разработчик",
+      "photo": "team_photos/img_3.png",
+      "full_name": "Sharshenbekov Nurhan",
+      "position": "frontend-developer",
       "bio": "Я — Шаршенбеков Нурхан, и я с гордостью участвовал в создании платформы HeartVibe. Этот проект стал для меня настоящим вызовом, но и невероятной возможностью применить все мои знания и навыки в frontend-разработке. Внесённый мной вклад в создание интерфейса платформы помогает сделать её удобной и привлекательной для пользователей. Я рад быть частью такого амбициозного и перспективного проекта.",
-      "contact_number": "+996 555 123456",
-      "created_at": "2024-04-02T14:30:00Z"
+      "contact_number": "+996 555 055 300",
+      "created_at": "2024-04-02T17:30:00+03:00"
+    }
+  },
+  {
+    "model": "ourcommand.TeamMember",
+    "pk": 3,
+    "fields": {
+      "photo": "team_photos/img_2.png",
+      "full_name": "Kempirov Daniel",
+      "position": "frontend-developer",
+      "bio": "My name is Daniel, and I’m part of the HeartVibe team. It was an honor for me to be a part of this project, especially because we had the best team leads — Medina Muratova and Nurkhan. Working with them made this experience even more rewarding",
+      "contact_number": "+996700304050",
+      "created_at": "2025-04-05T07:09:28.312959+03:00"
+    }
+  },
+  {
+    "model": "ourcommand.TeamMember",
+    "pk": 4,
+    "fields": {
+      "photo": "team_photos/img_1.png",
+      "full_name": "Islam Duishobaev",
+      "position": "backend-developer",
+      "bio": "My name is Islam, and I worked on this project as a backend developer. It was a pleasure to work alongside such a talented and motivated team. This experience means a lot to me, and I’m proud to have contributed to a platform that brings real value to people.",
+      "contact_number": "+996995121007",
+      "created_at": "2025-04-05T09:29:43.175169+03:00"
     }
   }
 ]
