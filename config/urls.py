@@ -10,6 +10,7 @@ urlpatterns = [
                   path('api/v1/', include('apps.contactrequest.urls')),
                   path('api/v1/', include('apps.news.urls')),
                   path('api/v1/', include('apps.event.urls')),
+                  path('api/v1/', include('apps.ourcommand.urls')),
 
               ] + swagger_urls
 
