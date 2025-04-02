@@ -1,4 +1,6 @@
 from django.contrib import admin
+from django.utils.safestring import mark_safe
+
 from .models import TeamMember
 
 
@@ -22,8 +24,8 @@ class TeamMemberAdmin(admin.ModelAdmin):
     def photo_preview(self, obj):
         """Отображение миниатюры фото в админке"""
         if obj.photo:
-            return f'<img src="{obj.photo.url}" width="50" style="border-radius: 5px;"/>'
-        return "Нет фото"
+            return mark_safe(f'<img src="{obj.photo.url}" width="100" height="100" style="object-fit: cover; border-radius: 50px;">')
+        return "Нет изображения"
 
     photo_preview.allow_tags = True
     photo_preview.short_description = "Превью"
