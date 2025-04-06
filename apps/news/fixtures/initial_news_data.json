@@ -6,6 +6,10 @@
       "image": "news/img.png",
       "title": "Волонтерство: Помощь, которая меняет мир",
       "content": "Волонтерство становится неотъемлемой частью современного общества. Люди по всему миру объединяются, чтобы помогать нуждающимся, организовывать благотворительные акции и развивать социальные проекты. Одним из самых активных клубов является HeartVibe — международное сообщество волонтеров, которое помогает людям в сложных ситуациях, занимается благотворительностью и организует образовательные мероприятия. Участники клуба проводят бесплатные тренинги, поддерживают молодежные инициативы и вдохновляют тысячи людей на добрые дела.",
+      "title_en": "Volunteering: The Help That Changes the World",
+      "content_en": "Volunteering is becoming an integral part of modern society. People around the world are coming together to help those in need, organize charitable actions, and develop social projects. One of the most active clubs is HeartVibe — an international volunteer community that helps people in difficult situations, engages in charity work, and organizes educational events. Club participants conduct free training, support youth initiatives, and inspire thousands of people to do good deeds.",
+      "title_ky": "Волонтердук: Дүйнөнү өзгөрткөн жардам",
+      "content_ky": "Волонтердук азыркы коомдун ажырагыс бөлүгү болуп калууда. Дүйнөнүн ар кайсы бурчтарынан адамдар муктаждарга жардам берүүгө, кайрымдуулук иш-чараларын уюштурууга жана социалдык долбоорлорду ишке ашырууга биригүүдө. Эң активдүү клубдардын бири HeartVibe — адамдарга кыйынчылыкка туш болгон учурда жардам берүү, кайрымдуулук иштерин жүргүзүү жана билим берүү иш-чараларын уюштуруу менен алектенген эл аралык волонтерлордун коомдоштугу. Клубдун катышуучулары бекер тренингдерди өткөрүп, жаштардын демилгелерин колдоп, миңдеген адамдарды жакшы иштерге шыктандырат.",
       "created_at": "2024-04-02T10:00:00Z",
       "updated_at": "2024-04-02T10:00:00Z"
     }
@@ -17,6 +21,10 @@
       "image": "news/img.png",
       "title": "Web Mind: IT-команда, меняющая будущее технологий",
       "content": "Web Mind — это молодая, но перспективная IT-команда, которая разрабатывает инновационные решения в сфере веб-технологий. Их главная цель — создание удобных, доступных и безопасных сервисов, которые упрощают жизнь пользователям. Недавно команда представила новый проект по обучению начинающих программистов, где опытные менторы делятся знаниями и помогают освоить востребованные технологии. Проект уже получил поддержку ведущих IT-компаний и активно развивается.",
+      "title_en": "Web Mind: An IT Team Changing the Future of Technology",
+      "content_en": "Web Mind is a young yet promising IT team developing innovative solutions in the field of web technologies. Their main goal is to create convenient, accessible, and secure services that simplify life for users. Recently, the team launched a new project to train beginner programmers, where experienced mentors share their knowledge and help learn in-demand technologies. The project has already received support from leading IT companies and is actively developing.",
+      "title_ky": "Web Mind: IT командасы, технологиялардын келечегин өзгөртүп жатат",
+      "content_ky": "Web Mind — бул веб-технологиялар чөйрөсүндө инновациялык чечимдерди иштеп чыгуучу жаш жана келечектүү IT командасы. Алардын негизги максаты — колдонуучулардын жашоосун жөнөкөйлөтө турган ыңгайлуу, жеткиликтүү жана коопсуз кызматтарды түзүү. Жакында команда башталгыч программалоочуларды окутуу боюнча жаңы долбоорду баштады, анда тажрыйбалуу менторлор билимдери менен бөлүшүп, талап кылынган технологияларды үйрөнүүгө жардам беришет. Долбоор алдыңкы IT компанияларынан колдоо алып, активдүү өнүгүп жатат.",
       "created_at": "2024-04-02T12:00:00Z",
       "updated_at": "2024-04-02T12:00:00Z"
     }
@@ -28,6 +36,10 @@
       "image": "news/img.png",
       "title": "HeartVibe: Волонтерство и технологии",
       "content": "HeartVibe — это не просто волонтерский клуб, а целая экосистема добра и технологического прогресса. Организация объединяет людей со всего мира, помогая им найти проекты, в которых можно реализовать себя и внести вклад в развитие общества. Недавно клуб запустил IT-инициативу, направленную на создание приложений для благотворительных организаций. Теперь с помощью технологий можно быстрее находить нуждающихся и эффективнее распределять ресурсы.",
+      "title_en": "HeartVibe: Volunteering and Technology",
+      "content_en": "HeartVibe is not just a volunteer club, but a whole ecosystem of good and technological progress. The organization brings people from all over the world together, helping them find projects where they can realize themselves and contribute to the development of society. Recently, the club launched an IT initiative aimed at creating applications for charitable organizations. Now, with the help of technology, it's easier to find those in need and distribute resources more effectively.",
+      "title_ky": "HeartVibe: Волонтердук жана технологиялар",
+      "content_ky": "HeartVibe — бул жөн гана волонтердук клуб эмес, ошондой эле жакшылыктын жана технологиялык прогресстин бүтүндөй экосистемасы. Уюм дүйнөнүн ар тарабынан адамдарды бириктирип, аларга өздөрүн ишке ашырууга жана коомду өнүктүрүүгө салым кошууга мүмкүнчүлүк берет. Жакында клуб кайрымдуулук уюмдары үчүн тиркемелерди түзүүгө багытталган IT демилгесин баштады. Азыр технологиялардын жардамы менен муктаждарды тезирээк табуу жана ресурстарды эффективдүү бөлүштүрүү оңой.",
       "created_at": "2024-04-02T14:00:00Z",
       "updated_at": "2024-04-02T14:00:00Z"
     }
@@ -39,6 +51,10 @@
       "image": "news/img.png",
       "title": "Айти для всех: Web Mind запускает образовательную платформу",
       "content": "Web Mind объявила о запуске образовательной платформы, где любой желающий сможет бесплатно изучать программирование, веб-дизайн и работу с базами данных. Проект создан для того, чтобы сделать IT-индустрию доступной для всех, независимо от возраста и уровня подготовки. Волонтеры из различных компаний присоединились к инициативе, чтобы делиться знаниями и помогать студентам развиваться в мире IT.",
+      "title_en": "IT for All: Web Mind Launches Educational Platform",
+      "content_en": "Web Mind has announced the launch of an educational platform where anyone can learn programming, web design, and database management for free. The project is designed to make the IT industry accessible to everyone, regardless of age or skill level. Volunteers from various companies have joined the initiative to share knowledge and help students grow in the world of IT.",
+      "title_ky": "IT бардыга: Web Mind билим берүү платформасын баштайт",
+      "content_ky": "Web Mind билим берүү платформасын баштаганын жарыялады, анда каалаган адам программалоону, веб-дизайнды жана маалыматтар базасын башкарууну акысыз үйрөнө алат. Долбоор IT индустриясын бардыгы үчүн жеткиликтүү кылуу максатында түзүлгөн, куракка же даярдык деңгээлине карабастан. Ар кандай компаниялардын волонтерлору демилгеге кошулуп, билимдери менен бөлүшүп, студенттерге IT дүйнөсүндө өнүгүүгө жардам берүүдө.",
       "created_at": "2024-04-02T16:00:00Z",
       "updated_at": "2024-04-02T16:00:00Z"
     }
@@ -50,8 +66,12 @@
       "image": "news/img.png",
       "title": "Технологии и добро: HeartVibe и Web Mind объединяют усилия",
       "content": "Две крупнейшие инициативы — волонтерский клуб HeartVibe и IT-команда Web Mind — объявили о сотрудничестве. Их главная цель — развитие технологий во благо общества. Планируется создание специальной платформы, которая объединит благотворительные организации и IT-специалистов. Это позволит волонтерам быстрее находить проекты, а разработчикам — создавать полезные сервисы, направленные на помощь людям. Синергия технологий и волонтерства открывает новые возможности для социальных изменений.",
-      "created_at": "2025-04-02T18:00:00Z",
-      "updated_at": "2025-04-02T18:00:00Z"
+      "title_en": "Technology and Good: HeartVibe and Web Mind Join Forces",
+      "content_en": "Two major initiatives — the HeartVibe volunteer club and the Web Mind IT team — have announced their collaboration. Their main goal is to develop technology for the benefit of society. A special platform is planned to be created, which will unite charitable organizations and IT specialists. This will allow volunteers to find projects more quickly, and developers to create useful services aimed at helping people. The synergy of technology and volunteering opens up new opportunities for social change.",
+      "title_ky": "Технологиялар жана жакшылык: HeartVibe жана Web Mind күчтөрүн бириктиришти",
+      "content_ky": "Эки ири демилге — волонтердук клуб HeartVibe жана IT командасы Web Mind — өз ара кызматташтыктарын жарыялашты. Алардын негизги максаты — коомдун пайдасына технологияларды өнүктүрүү. Специальдуу платформа түзүлөт, ал кайрымдуулук уюмдарын жана IT адистерин бириктирет. Бул волонтерлорго долбоорлорду тезирээк табууга жана иштеп чыгуучуларга адамдарга жардам берүүчү пайдалуу кызматтарды түзүүгө мүмкүнчүлүк берет. Технологиялардын жана волонтердук иштин синергиясы социалдык өзгөрүүлөр үчүн жаңы мүмкүнчүлүктөрдү ачат.",
+      "created_at": "2024-04-02T18:00:00Z",
+      "updated_at": "2024-04-02T18:00:00Z"
     }
   }
 ]

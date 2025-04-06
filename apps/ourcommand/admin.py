@@ -11,15 +11,6 @@ class TeamMemberAdmin(admin.ModelAdmin):
     search_fields = ('full_name', 'position', 'contact_number')
     list_filter = ('position', 'created_at')
     readonly_fields = ('created_at', 'photo_preview')
-    fieldsets = (
-        ('Основная информация', {
-            'fields': ('photo_preview', 'photo', 'full_name', 'position', 'bio', 'contact_number')
-        }),
-        ('Системная информация', {
-            'fields': ('created_at',),
-            'classes': ('collapse',)
-        }),
-    )
 
     def photo_preview(self, obj):
         """Отображение миниатюры фото в админке"""

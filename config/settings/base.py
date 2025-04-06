@@ -25,6 +25,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'drf_yasg',
+    'django_filters',
+    'modeltranslation',
 
     #apps
     'apps.OTP',
@@ -77,6 +79,13 @@ DATABASES = {
 
 # --- Локализация ---
 LANGUAGE_CODE = 'ru-RU'
+LANGUAGES = (
+    ('ru', 'Russian'),
+    ('en', 'English'),
+    ('ky', 'Kyrgyz'),
+)
+MODELTRANSLATION_DEFAULT_LANGUAGE = 'ru'
+
 TIME_ZONE = 'Europe/Moscow'
 USE_I18N = True
 USE_L10N = True

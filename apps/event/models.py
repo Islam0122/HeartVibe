@@ -1,6 +1,8 @@
-from django.db import models
 from django.core.validators import URLValidator
+from django.db import models
+from googletrans import Translator
 from core.models import BaseModel
+
 
 class EventCategory(models.Model):
     name = models.CharField(
@@ -8,6 +10,29 @@ class EventCategory(models.Model):
         verbose_name="Название категории",
         help_text="Введите название категории мероприятия"
     )
+    name_en = models.CharField(
+        max_length=100,
+        blank=True,
+        null=True,
+        verbose_name="Название категории (англ.)",
+        help_text="Название категории на английском"
+    )
+    name_ky = models.CharField(
+        max_length=100,
+        blank=True,
+        null=True,
+        verbose_name="Название категории (кырг.)",
+        help_text="Название категории на кыргызском"
+    )
+
+    def save(self, *args, **kwargs):
+        translator = Translator()
+        if self.name:
+            if not self.name_en:
+                self.name_en = translator.translate(self.name, src='ru', dest='en').text
+            if not self.name_ky:
+                self.name_ky = translator.translate(self.name, src='ru', dest='ky').text
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return self.name
@@ -16,6 +41,7 @@ class EventCategory(models.Model):
         verbose_name = "Категория мероприятий"
         verbose_name_plural = "Категории мероприятий"
         ordering = ['name']
+
 
 
 class Event(BaseModel):
@@ -31,10 +57,38 @@ class Event(BaseModel):
         verbose_name="Название",
         help_text="Введите название мероприятия"
     )
+    title_en = models.CharField(
+        max_length=200,
+        blank=True,
+        null=True,
+        verbose_name="Название (англ.)",
+        help_text="Название мероприятия на английском"
+    )
+    title_ky = models.CharField(
+        max_length=200,
+        blank=True,
+        null=True,
+        verbose_name="Название (кырг.)",
+        help_text="Название мероприятия на кыргызском"
+    )
+
     description = models.TextField(
         verbose_name="Описание",
         help_text="Подробное описание мероприятия"
     )
+    description_en = models.TextField(
+        blank=True,
+        null=True,
+        verbose_name="Описание (англ.)",
+        help_text="Описание мероприятия на английском"
+    )
+    description_ky = models.TextField(
+        blank=True,
+        null=True,
+        verbose_name="Описание (кырг.)",
+        help_text="Описание мероприятия на кыргызском"
+    )
+
     date = models.DateTimeField(
         verbose_name="Дата и время",
         help_text="Укажите дату и время проведения мероприятия"
@@ -66,6 +120,20 @@ class Event(BaseModel):
         verbose_name="Активно",
         help_text="Отметьте, если мероприятие активно и должно отображаться"
     )
+
+    def save(self, *args, **kwargs):
+        translator = Translator()
+        if self.title:
+            if not self.title_en:
+                self.title_en = translator.translate(self.title, src='ru', dest='en').text
+            if not self.title_ky:
+                self.title_ky = translator.translate(self.title, src='ru', dest='ky').text
+        if self.description:
+            if not self.description_en:
+                self.description_en = translator.translate(self.description, src='ru', dest='en').text
+            if not self.description_ky:
+                self.description_ky = translator.translate(self.description, src='ru', dest='ky').text
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return self.title

@@ -3,35 +3,45 @@
     "model": "event.EventCategory",
     "pk": 1,
     "fields": {
-      "name": "Образование"
+      "name": "Образование",
+      "name_ky": "Билим берүү",
+      "name_en": "Education"
     }
   },
   {
     "model": "event.EventCategory",
     "pk": 2,
     "fields": {
-      "name": "Экология"
+      "name": "Экология",
+      "name_ky": "Экология",
+      "name_en": "Ecology"
     }
   },
   {
     "model": "event.EventCategory",
     "pk": 3,
     "fields": {
-      "name": "Социальная помощь"
+      "name": "Социальная помощь",
+      "name_ky": "Социалдык жардам",
+      "name_en": "Social Help"
     }
   },
   {
     "model": "event.EventCategory",
     "pk": 4,
     "fields": {
-      "name": "Культура"
+      "name": "Культура",
+      "name_ky": "Маданият",
+      "name_en": "Culture"
     }
   },
   {
     "model": "event.EventCategory",
     "pk": 5,
     "fields": {
-      "name": "Спорт"
+      "name": "Спорт",
+      "name_ky": "Спорт",
+      "name_en": "Sport"
     }
   },
   {
@@ -40,12 +50,16 @@
     "fields": {
       "image": "events/img.png",
       "title": "Образовательная конференция",
+      "title_ky": "Билим берүү боюнча конференция",
+      "title_en": "Educational Conference",
       "description": "Конференция, посвященная образовательным вопросам.",
-      "date": "2025-05-10T10:00:00Z",
+      "description_ky": "Билим берүү маселелерине арналган конференция.",
+      "description_en": "Conference dedicated to educational topics.",
       "location": "Московский университет",
       "location_url": "https://maps.google.com",
       "category": 1,
       "is_active": true,
+      "date": "2025-09-05T14:00:00Z",
       "created_at": "2025-04-02T18:00:00Z",
       "updated_at": "2025-04-02T18:00:00Z"
     }
@@ -56,12 +70,16 @@
     "fields": {
       "image": "events/img_1.png",
       "title": "Экологический форум",
+      "title_ky": "Экология боюнча форум",
+      "title_en": "Ecological Forum",
       "description": "Форум по вопросам экологии и устойчивого развития.",
-      "date": "2025-06-15T09:00:00Z",
+      "description_ky": "Экология жана туруктуу өнүгүү маселелери боюнча форум.",
+      "description_en": "Forum on environmental and sustainable development issues.",
       "location": "Экологический центр",
       "location_url": "https://maps.google.com",
       "category": 2,
       "is_active": true,
+      "date": "2025-06-05T14:00:00Z",
       "created_at": "2025-04-02T18:00:00Z",
       "updated_at": "2025-04-02T18:00:00Z"
     }
@@ -72,12 +90,16 @@
     "fields": {
       "image": "events/img_2.png",
       "title": "Благотворительный вечер",
+      "title_ky": "Кайрымдуулук кечеси",
+      "title_en": "Charity Evening",
       "description": "Вечер для сбора средств на помощь нуждающимся.",
-      "date": "2025-07-01T18:00:00Z",
+      "description_ky": "Муктаждарга жардам чогултуу үчүн кеча.",
+      "description_en": "An evening to raise funds for those in need.",
       "location": "Концертный зал",
       "location_url": "https://maps.google.com",
       "category": 3,
       "is_active": true,
+      "date": "2025-10-05T14:00:00Z",
       "created_at": "2025-04-02T18:00:00Z",
       "updated_at": "2025-04-02T18:00:00Z"
     }
@@ -88,12 +110,16 @@
     "fields": {
       "image": "events/img_3.png",
       "title": "Концерт классической музыки",
+      "title_ky": "Классикалык музыка концерти",
+      "title_en": "Classical Music Concert",
       "description": "Концерт известного оркестра в честь праздника.",
-      "date": "2025-08-20T19:00:00Z",
+      "description_ky": "Майрамга арналган белгилүү оркестрдин концерти.",
+      "description_en": "Concert of a famous orchestra in honor of the holiday.",
       "location": "Государственная филармония",
       "location_url": "https://maps.google.com",
       "category": 4,
       "is_active": true,
+      "date": "2025-08-05T14:00:00Z",
       "created_at": "2025-04-02T18:00:00Z",
       "updated_at": "2025-04-02T18:00:00Z"
     }
@@ -104,12 +130,16 @@
     "fields": {
       "image": "events/img_4.png",
       "title": "Спортивные игры",
+      "title_ky": "Спорттук оюндар",
+      "title_en": "Sporting Games",
       "description": "Турнир по футболу между любителями.",
-      "date": "2025-09-05T14:00:00Z",
+      "description_ky": "Футбол боюнча сүйүүчүлөр арасындагы турнир.",
+      "description_en": "Amateur football tournament.",
       "location": "Спортивный комплекс",
       "location_url": "https://maps.google.com",
       "category": 5,
       "is_active": true,
+      "date": "2025-07-05T14:00:00Z",
       "created_at": "2025-04-02T18:00:00Z",
       "updated_at": "2025-04-02T18:00:00Z"
     }

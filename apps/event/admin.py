@@ -17,19 +17,6 @@ class EventAdmin(admin.ModelAdmin):
     search_fields = ('title', 'description', 'location')
     list_editable = ('is_active',)
     readonly_fields = ('display_image','created_at', 'updated_at')
-    fieldsets = (
-        ("Основное", {
-            "fields": ('title', 'description', 'category', 'is_active'),
-            "classes": ("wide",),
-        }),
-        ("Дата и место", {
-            "fields": ('date', 'location', 'location_url'),
-            "classes": ("collapse",),
-        }),
-        ("Изображение", {
-            "fields": ('image', 'display_image'),
-        }),
-    )
 
     def display_image(self, obj):
         if obj.image:

@@ -4,10 +4,16 @@
     "pk": 1,
     "fields": {
       "photo": "team_photos/img_4.png",
-      "full_name": "Muratova Medina",
-      "position": "Frontend-разработчик",
-      "bio": "I’m Medina Muratova, a frontend developer, and I’m proud to be part of the team that built the HeartVibe platform. This project has been a true source of inspiration for me. We put a lot of effort into creating not just a beautiful, but also a functional interface that continues to grow and support its users. For me, it’s more than just a job — it’s an opportunity to make the world a little better",
+      "full_name": "Муратова Медина",
+      "position": "Frontend Developer",
+      "bio": "Я Муратова Медина, фронтенд-разработчик, и я горжусь тем, что являюсь частью команды, которая создала платформу HeartVibe. Этот проект стал настоящим источником вдохновения для меня. Мы вложили много усилий в создание не только красивого, но и функционального интерфейса, который продолжает развиваться и поддерживать своих пользователей. Для меня это больше, чем просто работа — это возможность сделать мир немного лучше.",
       "contact_number": "+996 501 301005",
+      "full_name_en": "Muratova Medina",
+      "position_en": "Frontend Developer",
+      "bio_en": "I’m Medina Muratova, a frontend developer, and I’m proud to be part of the team that built the HeartVibe platform. This project has been a true source of inspiration for me. We put a lot of effort into creating not just a beautiful, but also a functional interface that continues to grow and support its users. For me, it’s more than just a job — it’s an opportunity to make the world a little better.",
+      "full_name_ky": "Муратова Медина",
+      "position_ky": "Фронтенд-разработчик",
+      "bio_ky": "Мен Медина Муратова, фронтенд-разработчик, жана мен HeartVibe платформасын түзгөн команданын бир бөлүгү болууга сыймыктанам. Бул долбоор мен үчүн чыныгы дем берди. Биз анын гана көзгө тартуучу эмес, ошондой эле функционалдуу интерфейс жаратуу үчүн көп күч жумшадык, ал өсүп жана колдонуучуларга колдоо көрсөтүүдө. Мен үчүн бул жөн гана жумуш эмес — дүйнөнү бир аз болсо да жакшыраак кылуу мүмкүнчүлүгү.",
       "created_at": "2024-04-01T15:00:00+03:00"
     }
   },
@@ -16,10 +22,16 @@
     "pk": 2,
     "fields": {
       "photo": "team_photos/img_3.png",
-      "full_name": "Sharshenbekov Nurhan",
-      "position": "frontend-developer",
-      "bio": "Я — Шаршенбеков Нурхан, и я с гордостью участвовал в создании платформы HeartVibe. Этот проект стал для меня настоящим вызовом, но и невероятной возможностью применить все мои знания и навыки в frontend-разработке. Внесённый мной вклад в создание интерфейса платформы помогает сделать её удобной и привлекательной для пользователей. Я рад быть частью такого амбициозного и перспективного проекта.",
+      "full_name": "Шаршенбеков Нурхан",
+      "position": "Frontend Developer",
+      "bio": "Я Шаршенбеков Нурхан, и я с гордостью участвовал в создании платформы HeartVibe. Этот проект стал для меня настоящим вызовом, но также невероятной возможностью применить все мои знания и навыки в фронтенд-разработке. Мой вклад в интерфейс платформы помогает сделать его удобным и привлекательным для пользователей. Я рад быть частью такого амбициозного и перспективного проекта.",
       "contact_number": "+996 555 055 300",
+      "full_name_en": "Sharshenbekov Nurhan",
+      "position_en": "Frontend Developer",
+      "bio_en": "I’m Sharshenbekov Nurhan, and I proudly participated in the creation of the HeartVibe platform. This project became a real challenge for me, but also an incredible opportunity to apply all my knowledge and skills in frontend development. My contribution to the platform’s interface helps make it convenient and attractive for users. I’m happy to be part of such an ambitious and promising project.",
+      "full_name_ky": "Шаршенбеков Нурхан",
+      "position_ky": "Фронтенд-разработчик",
+      "bio_ky": "Мен Шаршенбеков Нурхан, жана мен HeartVibe платформасын түзүүгө сыймыктануу менен катыштым. Бул долбоор мен үчүн чыныгы чакырык болду, бирок ошол эле учурда ал мениң бардык билимимди жана көндүмдөрүмдү frontend-дамууда колдонууга мүмкүнчүлүк берди. Менин салымыма платформа интерфейси колдонуучулар үчүн ыңгайлуу жана жагымдуу болууга жардам берет. Мен ушундай амбициялуу жана келечектүү долбоордун бир бөлүгү болууга кубанычтамын.",
       "created_at": "2024-04-02T17:30:00+03:00"
     }
   },
@@ -28,10 +40,16 @@
     "pk": 3,
     "fields": {
       "photo": "team_photos/img_2.png",
-      "full_name": "Kempirov Daniel",
-      "position": "frontend-developer",
-      "bio": "My name is Daniel, and I’m part of the HeartVibe team. It was an honor for me to be a part of this project, especially because we had the best team leads — Medina Muratova and Nurkhan. Working with them made this experience even more rewarding",
+      "full_name": "Кемпиров Даниэль",
+      "position": "Frontend Developer",
+      "bio": "Меня зовут Даниэль, и я являюсь частью команды HeartVibe. Для меня было честью быть частью этого проекта, особенно потому что у нас были лучшие лидеры команды — Медина Мурадова и Нуркхан. Работа с ними сделала этот опыт еще более ценным.",
       "contact_number": "+996700304050",
+      "full_name_en": "Kempirov Daniel",
+      "position_en": "Frontend Developer",
+      "bio_en": "My name is Daniel, and I’m part of the HeartVibe team. It was an honor for me to be a part of this project, especially because we had the best team leads — Medina Muratova and Nurkhan. Working with them made this experience even more rewarding.",
+      "full_name_ky": "Кемпиров Даниэль",
+      "position_ky": "Фронтенд-разработчик",
+      "bio_ky": "Менин атым Даниэль, жана мен HeartVibe командасынын бир бөлүгүмүн. Бул долбоордун бир бөлүгү болуу мен үчүн сыймык болду, айрыкча бизде эң мыкты командалык лидерлер болгон — Медина Мурадова жана Нуркхан. Алар менен иштөө бул тажрыйбаны дагы да канааттандырарлык кылды.",
       "created_at": "2025-04-05T07:09:28.312959+03:00"
     }
   },
@@ -40,10 +58,16 @@
     "pk": 4,
     "fields": {
       "photo": "team_photos/img_1.png",
-      "full_name": "Islam Duishobaev",
-      "position": "backend-developer",
-      "bio": "My name is Islam, and I worked on this project as a backend developer. It was a pleasure to work alongside such a talented and motivated team. This experience means a lot to me, and I’m proud to have contributed to a platform that brings real value to people.",
+      "full_name": "Ислам Дуйшобаев",
+      "position": "Backend Developer",
+      "bio": "Меня зовут Ислам, и я работал над этим проектом как бэкэнд-разработчик. Было приятно работать с такой талантливой и мотивированной командой. Этот опыт имеет для меня большое значение, и я горжусь тем, что внес свой вклад в создание платформы, которая приносит реальную пользу людям.",
       "contact_number": "+996995121007",
+      "full_name_en": "Islam Duishobaev",
+      "position_en": "Backend Developer",
+      "bio_en": "My name is Islam, and I worked on this project as a backend developer. It was a pleasure to work alongside such a talented and motivated team. This experience means a lot to me, and I’m proud to have contributed to a platform that brings real value to people.",
+      "full_name_ky": "Ислам Дуйшобаев",
+      "position_ky": "Бэкэнд-разработчик",
+      "bio_ky": "Менин атым Ислам, жана мен бул долбоордо бэкэнд-разработчик катары иштедим. Мындай таланттуу жана мотивациялуу команда менен иштөө мен үчүн кубаныч болду. Бул тажрыйба мен үчүн чоң мааниге ээ жана мен адамдарга чыныгы баа алып келген платформанын түзүлүшүнө салым кошконумду сыймыктанам.",
       "created_at": "2025-04-05T09:29:43.175169+03:00"
     }
   }

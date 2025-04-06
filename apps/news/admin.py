@@ -11,15 +11,6 @@ class NewsAdmin(admin.ModelAdmin):
     readonly_fields = ('created_at', 'updated_at', 'image_preview')
     save_on_top = True
 
-    fieldsets = (
-        ('Основная информация', {
-            'fields': ('title','image', 'image_preview', 'content', ),
-        }),
-        ('Дополнительно', {
-            'fields': ('created_at', 'updated_at'),
-            'classes': ('collapse',)
-        }),
-    )
 
     def image_preview(self, obj):
         """Отображает миниатюру изображения в админке"""
