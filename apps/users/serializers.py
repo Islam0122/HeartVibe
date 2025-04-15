@@ -9,12 +9,11 @@ class MyTokenObtainPairSerializer(TokenObtainPairSerializer):
     @classmethod
     def get_token(cls, user):
         token = super().get_token(user)
-
-        # Добавляем пользовательские поля в токен
         token['email'] = user.email
         token['preferred_name'] = user.preferred_name
 
         return token
+
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
@@ -23,6 +22,7 @@ class UserSerializer(serializers.ModelSerializer):
                  'first_name', 'last_name', 'preferred_name',
                  'profile_picture']
         read_only_fields = ['email', 'phone_number']
+
 
 class RegisterSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True)
@@ -52,6 +52,7 @@ class RegisterSerializer(serializers.ModelSerializer):
         user.save()
         return user
 
+
 class ChangePasswordSerializer(serializers.Serializer):
     old_password = serializers.CharField(required=True)
     new_password = serializers.CharField(required=True)
@@ -62,8 +63,10 @@ class ChangePasswordSerializer(serializers.Serializer):
             raise serializers.ValidationError({"new_password": "Password fields didn't match."})
         return attrs
 
+
 class PasswordResetRequestSerializer(serializers.Serializer):
     email = serializers.EmailField(required=True)
+
 
 class PasswordResetConfirmSerializer(serializers.Serializer):
     new_password = serializers.CharField(write_only=True, required=True)
@@ -74,3 +77,4 @@ class PasswordResetConfirmSerializer(serializers.Serializer):
         if attrs['new_password'] != attrs['new_password2']:
             raise serializers.ValidationError({"new_password": "Password fields didn't match."})
         return attrs
+

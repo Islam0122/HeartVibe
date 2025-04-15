@@ -87,7 +87,6 @@ class PasswordResetRequestView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-
 class PasswordResetConfirmView(APIView):
     @swagger_auto_schema(request_body=PasswordResetConfirmSerializer)
     def post(self, request):
