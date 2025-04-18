@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'apps.contactrequest',
     'apps.event',
     'apps.ourcommand',
-    'apps.users'
+    'apps.users',
+    'apps.review'
 
 ]
 

@@ -12,6 +12,8 @@ urlpatterns = [
                   path('api/v1/', include('apps.event.urls')),
                   path('api/v1/', include('apps.ourcommand.urls')),
                   path('api/v1/', include('apps.users.urls')),
+                  path('api/v1/', include('apps.review.urls')),
+
               ] + swagger_urls
 
 if settings.DEBUG:

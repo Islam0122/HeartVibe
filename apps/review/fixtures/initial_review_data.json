@@ -1,0 +1,77 @@
+[
+  {
+    "model": "review.Review",
+    "pk": 1,
+    "fields": {
+      "avatar": "team_photos/img_2.png",
+      "author": "Александр Иванов",
+      "text": "Это замечательное место для волонтерской работы! Я чувствую себя частью чего-то важного.",
+      "rating": 5,
+      "created_at": "2025-04-19T12:34:56Z",
+      "author_en": "Alexander Ivanov",
+      "text_en": "This is a wonderful place for volunteer work! I feel like I'm part of something important.",
+      "author_ky": "Александр Иванов",
+      "text_ky": "Бул волонтердук иш үчүн керемет жер! Мен маанилүү нерсениң бир бөлүгү болуп жаткандай сезем."
+    }
+  },
+  {
+    "model": "review.Review",
+    "pk": 2,
+    "fields": {
+      "avatar": "team_photos/img_2.png",
+      "author": "Мария Петрова",
+      "text": "Очень понравилась атмосфера в клубе и возможность помочь другим!",
+      "rating": 4,
+      "created_at": "2025-04-19T13:00:00Z",
+      "author_en": "Maria Petrova",
+      "text_en": "I really liked the atmosphere in the club and the opportunity to help others!",
+      "author_ky": "Мария Петрова",
+      "text_ky": "Клубдагы атмосфера мага аябай жагып, башкаларга жардам берүү мүмкүнчүлүгү көптү жактырат!"
+    }
+  },
+  {
+    "model": "review.Review",
+    "pk": 3,
+    "fields": {
+      "avatar": "team_photos/img_2.png",
+      "author": "Иван Смирнов",
+      "text": "Работа в волонтерском клубе — это потрясающий опыт! Я рекомендую всем присоединиться.",
+      "rating": 5,
+      "created_at": "2025-04-19T14:15:22Z",
+      "author_en": "Ivan Smirnov",
+      "text_en": "Working in the volunteer club is an amazing experience! I recommend everyone to join.",
+      "author_ky": "Иван Смирнов",
+      "text_ky": "Волонтердук клубда иштөө — таң калыштуу тажрыйба! Бардык адамдарга кошулууга кеңеш берем."
+    }
+  },
+  {
+    "model": "review.Review",
+    "pk": 4,
+    "fields": {
+      "avatar": "team_photos/img_2.png",
+      "author": "Елена Волкова",
+      "text": "Клуб дает отличные возможности для личностного роста и помощи обществу.",
+      "rating": 4,
+      "created_at": "2025-04-19T15:30:45Z",
+      "author_en": "Elena Volkova",
+      "text_en": "The club provides great opportunities for personal growth and helping society.",
+      "author_ky": "Елена Волкова",
+      "text_ky": "Клуб жеке өсүү үчүн жана коомго жардам берүү үчүн жакшы мүмкүнчүлүктөрдү берет."
+    }
+  },
+  {
+    "model": "review.Review",
+    "pk": 5,
+    "fields": {
+      "avatar": "team_photos/img_2.png",
+      "author": "Олег Кузнецов",
+      "text": "Волонтерская деятельность в HeartVibe изменила мою жизнь, и я рад, что принял участие!",
+      "rating": 5,
+      "created_at": "2025-04-19T16:00:00Z",
+      "author_en": "Oleg Kuznetsov",
+      "text_en": "Volunteering at HeartVibe changed my life, and I'm happy I participated!",
+      "author_ky": "Олег Кузнецов",
+      "text_ky": "HeartVibeдеги волонтердук иш менин жашоомду өзгөрттү, жана мен катышканыма кубанычтамын!"
+    }
+  }
+]
